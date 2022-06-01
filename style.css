@@ -1,0 +1,282 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+strong {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.line {
+    border-bottom: 3px solid #8d9595;
+    margin-top: 5%;
+}
+.name {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#programmer {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: -8%;
+    margin-bottom: 0%;
+}
+#age {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+#name1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+}
+#surname {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0%;
+}
+
+
+
+.offer_slider{
+    width:650px;
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end
+}
+
+.offer_slider_count{
+    position: relative;
+    top: -50px;
+    display:flex;
+    width:180px;
+    align-items:center;
+    font-size:24px;
+    color:rgba(0,0,0,.5);
+    
+}
+
+.offer_slider-wrapper{
+        width:100%;
+        margin-top:15px;
+        box-shadow:0 4px 30px rgba(0,0,0,.25)
+    }
+
+.offer_slider_prev{
+    margin-right:10px;
+    cursor:pointer
+}
+.offer_slide_next{
+    margin-left:10px;
+    cursor:pointer
+    }
+
+.offer_slider #current{
+    font-size:48px;
+    font-weight:700;
+    color:#000
+}
+
+.offer_slide{
+    width:100%;
+    height:390px
+}
+
+.offer_slide img{
+    width:100%;
+    height:100%;
+    object-fit:cover
+    
+}
+
+.aboutMe {
+   
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: -30%;
+}
+#q {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -480px;
+    margin-left: 100px;
+}
+
+#w{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -480px;
+    margin-left: 800px;
+    width: 400px;
+}
+#e{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -480px;
+    margin-left: 800px;
+    width: 400px;
+}
+#r{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -480px;
+    margin-left: 800px;
+    width: 400px;
+}
+
+#working {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+#port {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    margin-top: 5%;
+}
+.game {
+    background-color: #b0dde2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+
+button {
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+
+.sharik {
+    display: table;
+    margin: 15px 0;
+    max-width: 100px;
+    width: 30px;
+    height: 30px;
+}
+
+
+#red1 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -365px;
+    left: 40%;
+}
+#red2 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -317px;
+    left: 87%;
+}
+
+#red3 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -273px;
+    left: 55%;
+}
+
+#red4 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -230px;
+    left: 70%;
+}
+
+#red5 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -184px;
+    left: 39%;
+}
+
+#red6 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -140px;
+    left: 58%;
+}
+
+#red7 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -94px;
+    left: 44%;
+}
+
+#red8 {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -51px;
+    left: 18%;
+}
+
+.shar {
+    position: relative;
+z-index: 2;
+}
