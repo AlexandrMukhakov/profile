@@ -62,7 +62,7 @@ strong {
 
 .offer_slider_count{
     position: relative;
-    top: -50px;
+    top: -60px;
     display:flex;
     width:180px;
     align-items:center;
@@ -147,6 +147,7 @@ strong {
     display: flex;
     justify-content: center;
     font-family: cursive;
+    margin-top: 100px;
 }
 .skills {
     display: flex;
@@ -162,10 +163,12 @@ figcaption {
     display: flex;
     justify-content: center;
     font-family: cursive;
-    margin-top: 5%;
+    margin-top: 10%;
+    
 }
 .game {
     background-color: #b0dde2;
+    margin-bottom: 100px;
 }
 
 * {
@@ -279,4 +282,56 @@ button {
 .shar {
     position: relative;
 z-index: 2;
+}
+
+#ppp {
+    font-family: cursive;
+}
+
+#contakt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contact2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.reklama {
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    margin-bottom: 100px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.dot {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
 }
