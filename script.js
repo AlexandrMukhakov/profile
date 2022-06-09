@@ -131,7 +131,8 @@ dots.forEach(item => {
 
 const btnStart = document.querySelector('#iphone'),
       btnStop = document.querySelector('#macbook'),
-      images = document.querySelectorAll('.sharik');
+      images = document.querySelectorAll('.sharik'),
+      widthForGame = document.querySelector(".game").clientWidth;
 
       let img1, img2, img3, img4, img5, img6, img7, img8;
  
@@ -146,7 +147,7 @@ const btnStart = document.querySelector('#iphone'),
                 if (!this.element) {
                     this.element = this.img.animate([
                         {transform: `translateX(0)`},
-                        {transform: `translateX(3600%)`},
+                        {transform: `translateX(${widthForGame}px)`},
                         {transform: `translateX(0px)`},
                         {transform: `translateX(0)`}
             
@@ -185,3 +186,6 @@ const btnStart = document.querySelector('#iphone'),
     new createAnimate(img6, images[5], 25000).start();
     new createAnimate(img7, images[6], 15000).start();
     new createAnimate(img8, images[7], 24000).start();
+
+
+
